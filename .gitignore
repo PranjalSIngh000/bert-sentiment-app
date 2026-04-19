@@ -1,0 +1,37 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Flask / runtime
+instance/
+*.log
+
+# Model and cache artifacts
+.cache/
+cache/
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Frontend dependencies / builds
+node_modules/
+dist/
+build/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
